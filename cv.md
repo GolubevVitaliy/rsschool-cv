@@ -16,7 +16,7 @@
 - music
 - films
 
-## code example
+## Code example
 ```
 function myFunc(age) {
   if (age <= 10) {
