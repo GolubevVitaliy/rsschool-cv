@@ -15,3 +15,18 @@
 - sport
 - music
 - films
+
+## code example
+```
+function myFunc(age) {
+  if (age <= 10) {
+    console.log('Hi, you are young');
+  } else if (age > 11 && age <= 60) {
+    console.log('You are adult');
+  } else {
+    console.log('You are old man');
+  }
+}
+
+myFunc(55)
+```
