@@ -30,3 +30,5 @@ function myFunc(age) {
 
 myFunc(55)
 ```
+## My life rule
+> **The road will be mastered by the walking**
