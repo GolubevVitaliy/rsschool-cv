@@ -16,22 +16,26 @@
  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
  /*--------------------*/
 
- .header {
-     margin-bottom: 100px;
+
+ /* ---------- header ---------- */
+.header {
+     margin-bottom: 50px;
 }
 .header__flex-container {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 1600px;
     padding: 15px;
 }
 .header__image {
 }
 .header__image-item {
-    max-width: 700px;
+    max-width: 500px;
+    width: 100%;
 }
 .header__body {
+    padding: 0px 10px 0px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,15 +43,141 @@
 .header__title {
     margin-bottom: 15px;
     text-transform: uppercase;
-    font-size: 120px;
+    font-size: 90px;
     font-family: 'Montserrat';
-    color: #00353F
+    font-weight: 700;
+    /* color: #00353F */
+    color: #0F4C38
 }
 .header__subtitle {
     padding: 10px;
     font-size: 55px;
     color: #fff;
-    background-color: #A06839;
+    /* background-color: #A06839; */
+    background-color: #723617;
     text-transform: uppercase;
     letter-spacing: 0.3em;
+}
+
+/* ---------- header end ---------- */
+
+/* ---------- main ---------- */
+
+.main {
+}
+.main__container {
+    max-width: 1600px;
+    margin: 0 auto
+}
+.main__flex-row {
+    display: flex;
+}
+.main__flex-col-left {
+    flex: 1;
+    padding: 40px;
+    /* background-color: #A06839; */
+    background-color: #723617;
+    color: #fff
+}
+.main__flex-col-left section {
+    margin-bottom: 50px;
+}
+.main__about-me {
+    max-width: 450px;
+}
+.about-me__title {
+}
+.title {
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.about-me__text {
+    line-height: 1.5em;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+}
+.main__skills {
+}
+.main__list {
+}
+.main__skills-title {
+}
+.skills__list {
+    
+}
+.skills__list-items {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.progress {
+    width: 200px;
+    height: 20px;
+    padding: 3px;
+    margin-top: 5px;
+    background: #000;
+    border-radius: 15px;
+}
+.progress-html::after {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 100%;
+    border-radius: 15px;
+    background: green
+}
+.progress-css::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 100%;
+    border-radius: 15px;
+    background: green
+}
+.progress-javascript::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 100%;
+    border-radius: 15px;
+    background: green
+}
+.progress-react::after {
+    content: '';
+    display: block;
+    width: 0px;
+}
+.main__contact {
+}
+.main__contact-title {
+}
+.contact__list {
+}
+.contact__list-items:nth-child(1) {
+    background: url(icon/icons8-discord-24.png) 0 no-repeat;
+    background-size: 24px;
+}
+.contact__list-items:nth-child(2) {
+    background: url(icon/icons8-эл.-адрес-24.png) 0 no-repeat;
+    background-size: 24px;
+}
+.contact__list-items:nth-child(3) {
+    background: url(icon/icons8-телефон-24.png) 0 no-repeat;
+    background-size: 24px;
+}
+.contact__list-items {
+    padding: 10px 0px 10px 30px;
+}
+.list-items__image {
+
+}
+.main__flex-col-right {
+    flex: 2;
+    background-color: #AE8157
 }
