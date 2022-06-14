@@ -28,8 +28,7 @@
     max-width: 1600px;
     padding: 15px;
 }
-.header__image {
-}
+
 .header__image-item {
     max-width: 500px;
     width: 100%;
@@ -46,14 +45,12 @@
     font-size: 90px;
     font-family: 'Montserrat';
     font-weight: 700;
-    /* color: #00353F */
     color: #0F4C38
 }
 .header__subtitle {
     padding: 10px;
     font-size: 55px;
     color: #fff;
-    /* background-color: #A06839; */
     background-color: #723617;
     text-transform: uppercase;
     letter-spacing: 0.3em;
@@ -62,9 +59,8 @@
 /* ---------- header end ---------- */
 
 /* ---------- main ---------- */
+/* ---------- left col ---------- */
 
-.main {
-}
 .main__container {
     max-width: 1600px;
     margin: 0 auto
@@ -75,7 +71,6 @@
 .main__flex-col-left {
     flex: 1;
     padding: 40px;
-    /* background-color: #A06839; */
     background-color: #723617;
     color: #fff
 }
@@ -84,8 +79,6 @@
 }
 .main__about-me {
     max-width: 450px;
-}
-.about-me__title {
 }
 .title {
     margin-bottom: 25px;
@@ -101,15 +94,6 @@
     font-weight: 400;
     font-size: 18px;
 }
-.main__skills {
-}
-.main__list {
-}
-.main__skills-title {
-}
-.skills__list {
-    
-}
 .skills__list-items {
     display: flex;
     justify-content: space-between;
@@ -121,7 +105,7 @@
     height: 20px;
     padding: 3px;
     margin-top: 5px;
-    background: #000;
+    background: #142E4A;
     border-radius: 15px;
 }
 .progress-html::after {
@@ -130,7 +114,7 @@
     width: 45px;
     height: 100%;
     border-radius: 15px;
-    background: green
+    background: #359475
 }
 .progress-css::after {
     content: '';
@@ -138,7 +122,7 @@
     width: 40px;
     height: 100%;
     border-radius: 15px;
-    background: green
+    background: #359475
 }
 .progress-javascript::after {
     content: '';
@@ -146,18 +130,12 @@
     width: 10px;
     height: 100%;
     border-radius: 15px;
-    background: green
+    background: #48947B
 }
 .progress-react::after {
     content: '';
     display: block;
     width: 0px;
-}
-.main__contact {
-}
-.main__contact-title {
-}
-.contact__list {
 }
 .contact__list-items:nth-child(1) {
     background: url(icon/icons8-discord-24.png) 0 no-repeat;
@@ -174,10 +152,48 @@
 .contact__list-items {
     padding: 10px 0px 10px 30px;
 }
-.list-items__image {
 
-}
+/* ---------- left col end---------- */
+
+/* ---------- right col ---------- */
+
 .main__flex-col-right {
     flex: 2;
-    background-color: #AE8157
+    padding: 40px;
+    color: #723617;
+}
+.main__education,
+.experience__container {
+    max-width: 80%;
+}
+.education,
+.experience {
+    font-family: 'Montserrat';
+}
+.education__title,
+.experience__title {
+    font-weight: 700;
+}
+.education__box,
+.experience__box {
+    display: flex;
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+.education__year,
+.experience__year {
+    flex: 1;
+    font-weight: 500;
+}
+.education__box-item,
+.experience__box-item {
+    flex: 2;
+}
+.education__subtitle {
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.experience__icon {
+    width: 50px;
+    padding-bottom: 10px;
 }
