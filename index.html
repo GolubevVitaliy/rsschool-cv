@@ -4,9 +4,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto+Condensed&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="style.css">
     <title>HTML, CSS &amp; Git Basics</title>
 </head>
 <body>
+    <header class="header">
+        <div class="header__flex-container">
+            <div class="header__image">
+                <img src="pixlr-bg-result.png" alt="my photo" class="header__image-item">
+            </div>
+            <div class="header__body">
+                <h1 class="header__title">golubev vitaliy</h1>
+                <div class="header__subtitle">Web developer</div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__container">
+            <div class="main__flex-row">
+                <div class="main__flex-col-left">
+                    <section class="main__about-me">
+                        <h2 class="about-me__title title">about me</h2>
+                        <p class="about-me__text">Hello! My name is Vitaliy. I am at the beginning of my journey to become a frontend developer. I don't know much yet, but I really want to learn! I believe in myself and my strength! After all, the road will be mastered by the walking one.</p>
+                    </section>
+                    <section class="main__skills main__list">
+                        <h2 class="main__skills-title title">skills</h2>
+                        <ul class="skills__list">
+                            <li class="skills__list-items">html
+                            <div class="progress progress-html">
+                                <div></div>
+                            </div></li>
+                            
+                            <li class="skills__list-items">css
+                                <div class="progress progress-css">
+                                    <div></div>
+                                </div>
+                            </li>
+                            
+                            <li class="skills__list-items">javascript
+                                <div class="progress progress-javascript">
+                                    <div></div>
+                                </div>
+                            </li>
+                            
+                            <li class="skills__list-items">react
+                                <div class="progress progress-react">
+                                    <div></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="main__contact main__list">
+                        <h2 class="main__contact-title title">contact</h2>
+                        <ul class="contact__list">
+                            <li class="contact__list-items">Виталий (@golubevvitali)</li>
+                            <li class="contact__list-items">golubev.vitali@mail.ru</li>
+                            <li class="contact__list-items">8 988 852 37 99</li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="main__flex-col-right">
+                    <section class="main__education">
+                        <div class="education">
+                            <h2 class="education__title title">education</h2>
+                            <div class="education__box">
+                                <div class="education__year">2007 - 2010</div>
+                                <div class="education__box-item">
+                                    <div class="education__subtitle">St. Petersburg Technical College of Management and Commerce</div>
+                                    <p class="education__text"></p>
+                                    <a href="http://www.tcmc.spb.ru/departments/ucito-it" class="link">SPB TCMaC</a>
+                                </div>
+                            </div>
+
+                            <div class="education__box">
+                                <div class="education__year">2022 - to present</div>
+                                <div class="education__box-item">
+                                    <div class="education__subtitle">The Rolling Scopes School</div>
+                                    <p class="education__text"></p>
+                                    <a href="https://rs.school/" class="link">RS School</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <section class="main__experience">
+                        <div class="experience">
+                            <div class="experience__container">
+                                <h2 class="experience__title title">experience</h2>
+                                <div class="experience__box">
+                                    <div class="experience__year">2022 - to present</div>
+                                    <div class="experience__box-item">
+                                        <img src="icon/icons8-грустно-96.png" alt="" class="experience__icon">
+                                        <p class="experience__text">I don't have work experience yet... But that's just for now.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="code">
+                        <h2 class="my-code title">my code</h2>
+                            <pre class="my-code__example">
+                                function myFunc(age) {
+                                      if (age <= 10) {
+                                      console.log('Hi, you are young');
+                                    } else if (age > 11 && age <= 60) {
+                                      console.log('You are adult');
+                                    } else {
+                                      console.log('You are old man');
+                                    }
+                                  }
+                                  myFunc(55)
+                            </pre>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="https://github.com/GolubevVitaliy/" class="footer__link">My GitHub</a>
+            <img src="icon/rs_school_js.svg" alt="footer logo" class="footer__logo">
+            <a href="https://rs.school/js/" class="footer__link">RS School / JS</a>
+        </div>
+        <p class="footer__text">2022</p>
+    </footer>
 </body>
 </html>
