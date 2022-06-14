@@ -171,7 +171,8 @@
     font-family: 'Montserrat';
 }
 .education__title,
-.experience__title {
+.experience__title,
+.my-code {
     font-weight: 700;
 }
 .education__box,
