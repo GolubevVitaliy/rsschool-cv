@@ -198,3 +198,27 @@
     width: 50px;
     padding-bottom: 10px;
 }
+.footer {
+    background: #142E4A;
+    color: #fff;
+}
+.container {
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.footer__link {
+    color: #fff;
+}
+.footer__logo {
+    width: 150px;
+}
+.footer__text {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
