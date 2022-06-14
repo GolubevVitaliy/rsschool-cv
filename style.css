@@ -15,3 +15,39 @@
  img{vertical-align: top;}
  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
  /*--------------------*/
+
+ .header {
+     margin-bottom: 100px;
+}
+.header__flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 15px;
+}
+.header__image {
+}
+.header__image-item {
+    max-width: 700px;
+}
+.header__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header__title {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 120px;
+    font-family: 'Montserrat';
+    color: #00353F
+}
+.header__subtitle {
+    padding: 10px;
+    font-size: 55px;
+    color: #fff;
+    background-color: #A06839;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
